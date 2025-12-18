@@ -1,0 +1,17 @@
+{
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/$1" }
+  ],
+  "functions": {
+    "api/chat.js": {
+      "runtime": "nodejs20.x"
+    }
+  }
+}
+```
+
+Save, then:
+```
+git add .
+git commit -m "add vercel config for api routes"
+git push
