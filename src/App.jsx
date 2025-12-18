@@ -42,7 +42,3 @@ function App() {
   )
 }
 
-export default App
-```
-
-Save.
