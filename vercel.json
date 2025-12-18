@@ -8,10 +8,3 @@
     }
   }
 }
-```
-
-Save, then:
-```
-git add .
-git commit -m "add vercel config for api routes"
-git push
